@@ -88,3 +88,84 @@ h5, p {
     background: rgb(255, 255, 255);
     transition: .6s;
 }
+
+#banner .ac .act {
+    display: none;
+}
+
+@media only screen and (max-width: 1040px) {
+
+    #banner a img {
+        height: 109px;
+    }
+
+}
+
+@media only screen and (max-width: 1035px) {
+
+    #banner a img {
+        height: 138px;
+    }
+
+}
+
+@media only screen and (max-width: 911px) {
+
+    #banner a img {
+        height: 168px;
+    }
+
+}
+
+@media only screen and (max-width: 856px) {
+
+    #banner a img {
+        height: 198px;
+    }
+
+}
+
+@media only screen and (max-width: 837px) {
+
+    #banner a img {
+        height: 227px;
+    }
+
+}
+
+@media only screen and (max-width: 814px) {
+
+    #banner a img {
+        display: none;
+    }
+
+    #banner p {
+        display: none;
+    }
+
+    #banner .logo-mac {
+        padding: 0;
+    }
+
+    #banner .ac .act {
+        display: inline-block;
+        height: 130px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-footer {
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 785px) {
+
+    #responsive-cards .rsp{
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 300px;
+    }    
+
+}
